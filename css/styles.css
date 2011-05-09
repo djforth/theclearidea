@@ -1,0 +1,706 @@
+/** CSS reset **/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/*** end reset ***/
+
+/** author Neil Mckenzie **/
+
+html{
+	overflow-y:scroll;
+}
+
+body {
+	font: 75%/1.4 Helvetica, Arial, verdana, sans-serif;
+	background: #000;
+	color: #FFFFFF;
+	text-align: left; 
+	margin : 0 auto;
+        padding-top:9px;
+}
+
+
+
+
+h2.main{
+	text-transform:lowercase;
+	margin-bottom:30px;
+	font-weight:bold;
+	font-size:1.4em;
+	line-height:0;
+	position:relative;
+	z-index:99;
+}
+
+h2.main span{
+	color:#2a9bdb;
+	display:block;
+}
+
+h3, .content dt{
+	text-transform:lowercase;
+	margin-bottom:0.7em;
+	font-size:1.17em;
+}
+
+h4{
+	font-weight:bold;
+	font-size:1.17em;
+	margin-bottom:1.2em;
+}
+
+.content dl{
+	margin-top:63px;
+}
+
+.content dt{
+	margin-bottom:0;
+	text-transform:none;
+}
+
+.content dd{
+	margin-bottom:54px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+
+
+ul#index li a{
+	color:#2a9bdb;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+.services h3{
+	/*background:url(../assets/servicesIcons.png) no-repeat top left;*/
+	
+}
+
+.services p a{
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+#wrapper{
+    padding-left:275px;
+    width:680px;
+    margin:0 auto;
+    font-size:1.17em;
+}
+
+#header{
+    position:relative;
+    z-index:120;
+}
+
+
+#nav{
+    padding-top:42px;
+    overflow:hidden;
+}
+
+      #jsddm
+{	margin: 0;
+	padding: 0}
+	
+	#jsddm li
+	{	float: left;
+		list-style: none;
+		font: 14px Tahoma, Arial; 
+		}
+
+	#jsddm li a
+	{	display: block;
+		background: #000000;
+		padding: 5px 15px;
+		text-decoration: none;
+		border-right: 5px solid black;
+		/*width: 70px;*/
+		color: #fff;
+		white-space: nowrap;
+		text-align:center;
+		font-weight:bold;
+		}
+
+	#jsddm li a:hover
+	{	background: #2a9bdb}
+	
+div#nav ul#jsddm li.lvlOne a.parent.active{
+	background:#2a9bdb;
+	}	
+	
+.home #nav ul#jsddm li#homeNav a,
+.services #nav ul#jsddm li#servicesNav a,
+.examples #nav ul#jsddm li#examplesNav a,
+.about #nav ul#jsddm li#aboutNav a,
+.contact #nav ul#jsddm li#contactNav a{
+    background:#2a9bdb;
+    color:#fff;
+}
+
+
+
+		#jsddm li ul
+		{	margin: 0;
+			padding: 0;
+			position: absolute;
+			visibility: hidden;
+			border-top: 5px solid black;
+			z-index:9999;
+			min-width:14px;
+			}
+		
+		#jsddm li ul li
+		{	float: none;
+			display: inline}
+		
+		#jsddm li ul li a
+		{	width: auto;
+			background: #ccc;
+			text-align:left;
+
+			}
+		
+		#jsddm li ul li a:hover
+		{	background: #304aa0}
+
+
+
+.ourClients #nav ul#jsddm li#howWeWorkNav ul li#ourClientsNav a.child,
+.examples #nav ul#jsddm li#examplesNav ul li#examplesNav a.child,{	
+	background:#666;
+	color:#fff;
+}
+
+
+
+.left{
+	float:left;	
+}
+
+.right{
+	float:right;	
+}
+
+
+ul#serviceList{
+	margin-bottom:38px;
+	width:580px;	
+}
+
+ul#serviceList li{
+	display:inline;
+	margin-right:10px;
+	font-size:.9em;
+	line-height:1.8;
+}
+
+ul#serviceList li a{
+	color:#969797;
+	font-weight:bold;
+	text-decoration:underline;
+	text-transform: capitalize;
+}
+
+ul#serviceList li a:hover{
+	text-decoration:underline;
+}
+
+/*
+#nav ul li span{
+    width:100px;
+    display:block;
+}
+
+#nav ul li ul{
+    position:absolute;
+}
+
+#nav ul li ul li{
+    width:250px;
+}
+
+#nav ul li ul li a{
+    width:250px;
+    color:#969797;
+    background:none;
+}
+
+#nav ul li ul li a:hover{
+    background:none;
+    color:#464748;
+}*/
+
+a.email { color:#249dea; text-decoration:underline; }
+a.email:hover { color:#304aa0; text-decoration:underline; }
+a.email:visited { color:#304aa0; }
+
+.sub_text{
+	color: #999999;
+	font-style: italic;
+	font-size: 12px;	
+}
+
+
+
+#logo{
+    position:absolute;
+    left:-275px;
+    top:0;
+}
+
+#contactDetails{
+	left:-275px;
+	position:absolute;
+	width:185px;
+	top:152px;
+	font-size:.8em;
+	color:#FFFFFF;
+	text-align:right;
+}
+
+#contactDetails dl{
+	
+}
+
+#address{
+	margin-bottom:1em;
+}
+
+#contactDetails dd a{
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#contactDetails dd a:hover{
+	text-decoration:underline;
+}
+
+#contactDetails dt{
+	margin-top:0.3em;
+	margin-bottom:0;
+	font-weight:bold;
+}
+
+.content{
+    margin-top:89px;
+    width:600px;
+    clear:both;
+    z-index:100;
+    position:relative;
+}
+
+.contact .content{
+    min-height:250px;
+    height:auto !important:
+    height:250px;
+}
+
+.content.lower{
+    margin-top:30px;
+}
+
+ul.contentList{
+	list-style: disc;
+	font-weight:bold;
+	padding-left:13px;
+	margin-bottom:2.2em;
+}
+
+ul.contentList li{
+	margin-bottom:1em;
+}
+
+p{
+    margin-bottom:0.7em;
+}
+
+.altTxt{
+	color:#ea5b23;
+	margin-bottom:49px;
+	margin-top:25px;
+}
+
+.altTxt ul{
+	list-style: disc;
+	padding-left:25px;
+	margin-bottom:15px;
+}
+
+
+.altTxt ul li{
+	margin-bottom:15px;
+}
+
+p.button{
+	overflow:hidden;   
+     
+}
+
+p a, #features strong{
+	color:#249dea;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+p.button a{
+     color:#fff;
+     text-decoration:none;
+     font-size:0.92em;
+     padding:0px 10px 3px 5px;
+     float:left;
+     background:url(../assets/buttRight.png) no-repeat right top;
+     font-weight:bold;
+}
+
+p.button a:hover, p a:hover{
+     color: #464748;
+}
+
+#features{
+    width:600px;
+    margin-top:85px;
+    display:inline-block;
+    background:url(../assets/featureBG.png) repeat-y top left;
+}
+
+#features.multiBlock{
+    margin-top:100px;
+}
+
+#features ul{
+    margin-bottom:0.7em;
+}
+
+#features .subLeft{
+    width:289px;
+    float:left;
+}
+
+#features .subLeft p{
+    width:200px;
+}
+
+#features .subRight{
+    width:228px;
+    float:right;
+    padding-left:52px;
+}
+
+#features.multiBlock{
+	background:url(../assets/feature4BG.png) no-repeat top left;
+	width:680px;
+}
+
+#features.multiBlock .sub{
+	float:left;
+	position:relative;
+}
+
+#features.multiBlock .sub img{
+	position:absolute;
+	top:-60px;
+	left:5px;
+}
+
+#features.multiBlock .sub.one{
+	width:167px;
+	padding-top:25px;
+	background:url(../assets/one.png) no-repeat top left;
+	padding-right:13px;
+}
+
+#features.multiBlock .sub.two{
+	width:167px;
+	padding-top:25px;
+	background:url(../assets/two.png) no-repeat top left;
+	padding-right:13px;
+}
+
+#features.multiBlock .sub.three{
+	width:167px;
+	padding-top:25px;
+	background:url(../assets/three.png) no-repeat top left;
+	padding-right:13px;
+}
+#features.multiBlock .sub.three.last{
+	background-color:white;
+}
+
+#features.multiBlock .sub.four{
+	width:140px;
+	padding-top:25px;
+	background:url(../assets/four.png) no-repeat top left;    
+}
+
+#features.multiBlock .sub.five{
+	width:140px;
+	padding-top:25px;
+	background:url(../assets/five.png) no-repeat top left;
+	clear:left;
+	margin-top:20px;
+}
+
+
+
+#features.multiBlock .sub.one p,
+#features.multiBlock .sub.two p,
+#features.multiBlock .sub.three p{
+	width:151px;
+}
+
+#features.multiBlock .sub.four p,
+#features.multiBlock .sub.five p{
+	width:140px;
+}
+
+.fiveReasons{
+    background:url(../images/logo.png) no-repeat right center;
+}
+
+.buildingBlocks{
+    background:url(../images/logo.png) no-repeat right center;
+}
+
+
+#form{
+	display:inline-block;
+}
+
+#form .field{
+	margin-bottom:20px;
+}
+
+#form fieldset{
+	margin-top:20px;
+}
+
+#form .field label{
+	float:left;
+	width:86px;
+	display:block;
+	margin-right:10px;
+	text-align:right;
+	font-weight:bold;
+}
+
+.buttonSubmit{
+	margin-left:95px;
+}
+
+#footer{
+    margin-top:88px;
+    position:relative;
+    font-size:0.93em;
+    color:#d3d3d3;
+}
+
+#footer #copyright{
+    position:absolute;
+    left:-230px;
+}
+
+#footer ul{
+	width:100%;
+}
+
+#footer ul li{
+    display:block;
+    float:left;
+    margin-right:13px;
+    margin-bottom:10px;
+}
+
+#footer ul li a{
+    text-decoration:none;
+    color:#d3d3d3;
+    width:50px;
+
+}
+
+#footer ul li a:hover{
+    text-decoration:underline;
+}
+
+ul#siteMap a{
+	text-transform: capitalize;
+	color:#249dea;
+}
+
+ul#siteMap ul{
+	margin-left:25px;
+	margin-top:15px;
+	text-transform: uppercase;
+}
+
+ul#siteMap li{
+	margin-bottom:15px;
+}
+
+a.back{
+	display:block;
+	float:right;
+	color:#7a7a7a;
+	font-size:.9em;
+}
+
+/* Ade additional style changes - 14/02/11 */
+
+/* Index additions */
+.mainLogo{
+	background: url("../images/logo.png") no-repeat;
+	width:188px;
+	height:165px;
+	display:block;
+	text-decoration:none;
+}
+
+#inside{
+	background:url("../images/strap.png") no-repeat;
+	width:195px;
+	height:17px;
+	display:block;
+	margin:20px 0;
+}
+
+
+/* About us additons*/
+#about_title{
+	background:url("../images/aboutHdr.png") no-repeat;
+	width:74px;
+	height:14px;
+	display:block;
+	margin:20px 0;
+}
+
+/*The idea additions */
+#idea{
+	background:url("../images/ideaHdr.png") no-repeat;
+	width:73px;
+	height:14px;
+	display:block;
+	margin:20px 0;
+}
+
+.sub h3{
+  color: #FF00FF; 
+  font-weight: bold; 
+  margin-bottom:0;
+  font-size:1em;
+}
+
+.sub p{
+	margin-top:0;
+}
+
+/* Examples additions */
+
+#example_title{
+	background:url("../images/examplesHdr.png") no-repeat;
+	width:81px;
+	height:17px;
+	display:block;
+	margin:0;
+}
+
+#sponsor{
+	background:url("../images/exampleHdr.png") no-repeat;
+	width:352px;
+	height:17px;
+	display:block;
+	margin:20px 0;
+}
+
+/*contact additions */
+
+#contact_title{
+	background:url("../images/contactHdr.png") no-repeat;
+	width:87px;
+	height:14px;
+	display:block;
+	margin:10px 0;
+}
+
+.ct1 {
+	color: #999999;
+	font-weight: bold;
+}
+.ct2 {
+	color: #666666;
+	font-weight: bold;
+}
+
+/* Clearing floats without extra markup
+Based on How To Clear Floats Without Structural Markup by PiE
+[http://www.positioniseverything.net/easyclearing.html] */
+.hidden {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 1px !important;
+  visibility: hidden !important;
+  text-decoration: none !important; }
+
+.clear {
+  display: inline-block; }
+
+.clear:after, .container:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+* html .clear {
+  height: 1%; }
+
+.clear {
+  display: block; }

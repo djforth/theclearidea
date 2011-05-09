@@ -1,0 +1,34 @@
+ul.contentList{
+	padding-left:15px;
+}
+
+.altTxt ul{
+	padding-left:28px;
+}
+
+
+#footer ul{
+	width:100%;
+}
+
+ul#serviceList{
+	margin-bottom:38px;
+		
+}
+
+.clearfix{
+	display:inline-block;
+}
+
+#footer{
+    zoom:1;
+}
+
+#jsddm li{	
+		position:relative;
+}
+
+#jsddm li ul
+		{	
+			min-width:116px;
+			}
