@@ -1,4 +1,4 @@
-<title>The Clear Idea</title><?php
+<?php
 if (isset($_REQUEST['email']))
 //if "email" is filled out, send email
   {

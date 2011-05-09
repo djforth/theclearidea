@@ -42,7 +42,7 @@ include("includes/header.php");
                 </div>
                 <div class="field">
                     <label for="message ">Message</label>
-                    <textarea id="message" name="message" cols="5" rows='5'></textarea>
+                    <textarea id="message" name="message" cols="30" rows='5'></textarea>
                 </div>
                 
                  <div class="field buttonSubmit">

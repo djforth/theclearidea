@@ -119,10 +119,10 @@ ul#index li a{
 	text-decoration:underline;
 }
 
-.services h3{
-	/*background:url(../assets/servicesIcons.png) no-repeat top left;*/
+/*.services h3{
+	background:url(../assets/servicesIcons.png) no-repeat top left;
 	
-}
+}*/
 
 .services p a{
 	font-weight:normal;

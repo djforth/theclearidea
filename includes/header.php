@@ -47,7 +47,7 @@
               </dl>
               <p>&nbsp;</p>
               <p><a href="http://www.twitter.com/theclearidea"><img src="images/Twitter_icon.png" alt="twitter" width="26" height="26"  /></a></p>
-              <p><a href="http://www.facebook.com/theclearidea"><img src="images/facebook_icon.png" alt="facebook" width="26" height="26"  /></a></p>
+              <p><a href="http://www.facebook.com/#!/pages/The-Clear-Idea/116747785064958"><img src="images/facebook_icon.png" alt="facebook" width="26" height="26"  /></a></p>
           </div>
             
             </div>
