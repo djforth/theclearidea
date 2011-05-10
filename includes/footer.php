@@ -1,5 +1,5 @@
 <div id="footer">
-<div id="copyright">&copy; The Clear Idea 2011</div>    
+<div id="copyright">&copy; That Clear Idea Limited 2011</div>    
    
  <ul>
    <li><a href="https://twitter.com/theclearidea">Twitter</a></li>

@@ -1,6 +1,6 @@
 <?php
 $body_class = 'examples'; 
-$page_title = 'The Clear Idea|   Examples'; /* Page title goes here */
+$page_title = 'The Clear Idea|  Gallery'; /* Page title goes here */
 $meta_description = 'Stand and stare at a marketing platform that will make your imagination run wild and the public stand still';  /* Meta description goes here */
 include("includes/header.php");  
 ?>
@@ -12,7 +12,7 @@ include("includes/header.php");
               <span class="sub_text">Official Partners of The Clear Idea</span></p>
         <!--<p align="right">&nbsp;</p>
         <h1 class="main">&nbsp;</h1>-->
-        <h2 class="main" id="example_title"><span class='hidden'>Examples</span></h2>
+        <h2 class="main" id="gallery_title"><span class='hidden'>Gallery</span></h2>
         <div class="main">
 				<script type="text/javascript">
 			        // Swf object to add flash content

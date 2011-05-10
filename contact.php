@@ -54,7 +54,7 @@ include("includes/header.php");
            <p>&nbsp;</p>
            <p><span class="ct1">Telephone: 	</span><br />
              0203 3846975</p>
-<p><span class="ct2">Email: 	</span><br />
+<p class="emails"><span class="ct2">Email: 	</span><br />
              <a href="mailto:sales@theclearidea.com">sales@theclearidea.com</a><br />
                   <a href="mailto:questions@theclearidea.com">questions@theclearidea.com</a></p> 
 <p><span class="ct2">Head Office Address: 	</span><br />
