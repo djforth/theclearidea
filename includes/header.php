@@ -42,9 +42,10 @@
                   <a href="mailto:questions@theclearidea.com" class="email">questions@theclearidea.com</a></dt>
               </dl>
               <div class="social">
-              	  <p>Follow the lorry on Twitter and Facebook</p>
-	              <p><a href="http://www.twitter.com/theclearidea"><img src="images/Twitter_icon.png" alt="twitter" width="26" height="26"  /></a></p>
-	              <p><a href="http://www.facebook.com/#!/pages/The-Clear-Idea/116747785064958"><img src="images/facebook_icon.png" alt="facebook" width="26" height="26"  /></a></p>
+              	  <div class="message">Follow the lorry on Twitter and Facebook</div>
+	              <div class="icons">
+					<a href="http://www.twitter.com/theclearidea"><img src="images/Twitter_icon.png" alt="twitter" width="26" height="26"  /></a>
+	              	<a href="http://www.facebook.com/#!/pages/The-Clear-Idea/116747785064958"><img src="images/facebook_icon.png" alt="facebook" width="26" height="26"  /></a></div>
               </div>
           </div>
             

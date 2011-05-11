@@ -694,6 +694,22 @@ a.back{
 	margin-top:20px;
 }
 
+.social .message{
+	padding:15px 0;
+	width:140px;
+	float:left;
+}
+
+.social .icons{
+	width:40px;
+	float:left;
+}
+
+.social .icons a {
+	display:block;
+	margin-bottom:10px;
+}
+
 .emails a{
 	font-size:1.1em;
 	color:#fff;
