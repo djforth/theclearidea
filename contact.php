@@ -41,8 +41,8 @@ include("includes/header.php");
                     <input type="text" id="subject" name="subject" />
                 </div>
                 <div class="field">
-                    <label for="message ">Message</label>
-                    <textarea id="message" name="message" cols="30" rows='5'></textarea>
+                    <label for="comments ">Message</label>
+                    <textarea id="comments" name="comments" cols="30" rows='5'></textarea>
                 </div>
                 
                  <div class="field buttonSubmit">
@@ -58,12 +58,11 @@ include("includes/header.php");
              <a href="mailto:sales@theclearidea.com">sales@theclearidea.com</a><br />
                   <a href="mailto:questions@theclearidea.com">questions@theclearidea.com</a></p> 
 <p><span class="ct2">Head Office Address: 	</span><br />
-             The Clear Idea,
-               Bugley Barton
-             <br />
+             <strong>The Clear Idea,
+               Bugley Barton <br />
              Warminster, Wilts.
              <br />
-           BA12 8HD </p>
+           BA12 8HD</strong></p>
  </div>
         
         

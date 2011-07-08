@@ -25,11 +25,7 @@ include("includes/header.php");
 					
 				</div>
               </div>
-        <h3 class="main" id="sponsor"><span class="hidden">Official Sponsors for 2011: Mercedes-Benz</span></h3>
-        <p>'The Clear Idea' are pleased to announce that Mercedes-Benz have been confirmed as the 'Official Sponsor' of the clear idea for 2011. We are very much looking forward to working with them.</p>
-
-        <p>'The Clear Idea' launches in April 2011 so now&rsquo;s the time for you and your company to start thinking outside the box in order to optimise this rare 'inside the box' mobile opportunity.</p>
-        <p>With that in mind we are taking pre-bookings in advance so please contact the sales team don't miss out &ndash; climb on board!!</p>
+        <h3 class="main" id="sponsor"><span class="hidden">Sponsors for 2011: Mercedes-Benz</span></h3>
         <p>Please use the gallery above for a few working examples of what can be achieved. </p>
 </div>
 <?php 

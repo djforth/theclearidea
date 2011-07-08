@@ -41,12 +41,31 @@
                   <a href="mailto:sales@theclearidea.com" class="email">sales@theclearidea.com</a><br />
                   <a href="mailto:questions@theclearidea.com" class="email">questions@theclearidea.com</a></dt>
               </dl>
-              <div class="social">
-              	  <div class="message">Follow the lorry on Twitter and Facebook</div>
-	              <div class="icons">
-					<a href="http://www.twitter.com/theclearidea"><img src="images/Twitter_icon.png" alt="twitter" width="26" height="26"  /></a>
-	              	<a href="http://www.facebook.com/#!/pages/The-Clear-Idea/116747785064958"><img src="images/facebook_icon.png" alt="facebook" width="26" height="26"  /></a></div>
+			  
+              <div class="social clear">
+	              <?php if($body_class == "home"){?>
+						<div class="join">Join <span>in!!!</span></div>
+						<div class="icons">
+							<p><a href="http://www.twitter.com/theclearidea"><img src="images/Twitter_icon.png" alt="twitter" width="26" height="26"  /></a></p>
+			              	  <p><a href="http://www.facebook.com/#!/pages/The-Clear-Idea/116747785064958"><img src="images/facebook_icon.png" alt="facebook" width="26" height="26"  /></a></p>
+						</div>
+				  <?php }else { ?>
+	              	  <p><strong>Follow the lorry on Twitter and Facebook</strong></p>
+	              	  <p><a href="http://www.twitter.com/theclearidea"><img src="images/Twitter_icon.png" alt="twitter" width="26" height="26"  /></a></p>
+	              	  <p><a href="http://www.facebook.com/#!/pages/The-Clear-Idea/116747785064958"><img src="images/facebook_icon.png" alt="facebook" width="26" height="26"  /></a></p>
+                 <?php } ?>
               </div>
+              <?php if($body_class == "home"){?>
+				  <div class="panel" id="new_idea">
+					<h3>NEW IDEAS</h3>
+					<p>The options are limitless.  Please <a href="idea.php">click here</a> to see a few of our own 'thinking inside the box' ideas</p>
+				  </div>
+				  <div class="panel" id="new_video">
+					<h3>NEW VIDEO</h3>
+					<p>To accompany all of our pictures we've added a quick promotional video.
+					Have a look <a href="media.php#video">click here</a></p>
+				  </div>
+			  <?php } ?>
           </div>
             
             </div>
@@ -55,7 +74,8 @@
 			    <li id="homeNav"><a href="index.php">home</a></li>
 			    <li id="servicesNav"><a href="theidea.php">the idea</a></li>
 			    <li id="examplesNav"><a href="gallery.php">gallery</a></li>
-			    <li id="mediaNav"><a href="media.php">media pack</a></li>
+			    <li id="mediaNav"><a href="media.php">media</a></li>
+			    <li id="ideaNav"><a href="idea.php">idea</a></li>
 			    <li id="productionNav"><a href="production.php">production</a></li>
 			    <li id="aboutNav"><a href="about-us.php">about us</a></li>
 			    <li id="contactNav"><a href="contact.php">contact us</a></li>

@@ -58,7 +58,7 @@ body {
 	color: #FFFFFF;
 	text-align: left; 
 	margin : 0 auto;
-        padding-top:9px;
+    padding-top:9px;
 }
 
 
@@ -113,6 +113,9 @@ h4{
 	height: 0;
 }
 
+a { text-decoration:none; }
+a.email:hover { text-decoration:underline; }
+
 
 
 ul#index li a{
@@ -156,7 +159,7 @@ ul#index li a{
 	#jsddm li
 	{	float: left;
 		list-style: none;
-		font: 14px Tahoma, Arial; 
+		font: 12px Tahoma, Arial; 
 		}
 
 	#jsddm li a
@@ -173,11 +176,24 @@ ul#index li a{
 		}
 
 	#jsddm li a:hover
-	{	background: #2a9bdb}
+	{	background: #2a9bdb;
+		color:#fff;}
 	
 div#nav ul#jsddm li.lvlOne a.parent.active{
 	background:#2a9bdb;
 	}	
+	
+li#mediaNav a{
+	color:#FF0066;
+}
+
+li#ideaNav a{
+	color:#FFFF00;
+}
+
+li#contactNav a{
+	color:#00A7F0;
+}
 	
 .home #nav ul#jsddm li#homeNav a,
 .services #nav ul#jsddm li#servicesNav a,
@@ -189,6 +205,8 @@ div#nav ul#jsddm li.lvlOne a.parent.active{
     background:#2a9bdb;
     color:#fff;
 }
+
+
 
 
 
@@ -640,7 +658,7 @@ a.back{
 }
 
 .sub h3{
-  color: #FF00FF; 
+  color: #1AACE1; 
   font-weight: bold; 
   margin-bottom:0;
   font-size:1em;
@@ -691,23 +709,40 @@ a.back{
 /*** Addition A Stainforth Production & Media 10/5/11  ***/
 
 .social{
-	margin-top:20px;
+	margin:20px 0;
 }
 
-.social .message{
-	padding:15px 0;
-	width:140px;
+.social .join span{
+	color:#fff;
+}
+
+.social .join{
+	padding:20px 0;
 	float:left;
+	width:150px;
+	font-size:2.4em;
+	color:#00B0F0;
+	text-transform:uppercase;
 }
 
-.social .icons{
-	width:40px;
-	float:left;
+.panel {
+	font-size:1.6em;
+	width:100%;
+	text-align:left;
 }
 
-.social .icons a {
-	display:block;
-	margin-bottom:10px;
+.panel h3{
+	font-size:1.6em;
+	text-transform:uppercase;
+	margin:30px 0 0 0;
+}
+
+#new_idea h3, #new_idea a{
+	color:#FFFF00;
+}
+
+#new_video h3, #new_video a{
+	color:#00BD00;
 }
 
 .emails a{
